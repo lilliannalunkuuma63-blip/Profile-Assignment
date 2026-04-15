@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+    <link rel="stylesheet" href="design.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        .row {
+            border: 1px solid black;
+            margin: 10px 0;
+            padding: 10px;
+        }
+
+        .flex {
+            display: flex;
+            gap: 20px;
+        }
+
+        img {
+            width: 100px;
+            height: 50px;
+            border-radius: 50%; /* Makes image circular */
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+
+        .contacts {
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- FIRST ROW -->
+    <div class="row flex">
+        <img src=Lillian.jpg alt="My Photo">
+
+        <div>
+            <h3>Biography</h3>
+            <p>
+                My name is Nalunkuuma Lillian. I am a student passionate about technology and programming.
+                I enjoy learning new skills and building simple web applications.
+            </p>
+        </div>
+    </div>
+
+   
+    <div class="row flex">
+
+        <!-- Ordered List (Schools) -->
+        <div>
+            <h3>Schools</h3>
+            <ol>
+                <li>Kyambogo University, BITC, 2024-2027</li>
+                <li>ABC High School, UACE, 2022-2023</li>
+                <li>XYZ Primary School, PLE, 2015-2018</li>
+            </ol>
+        </div>
+
+        <!-- Unordered List -->
+        <div>
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>C++</li>
+                <li>Linux</li>
+            </ul>
+
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Reading</li>
+                <li>Music</li>
+                <li>Gaming</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- THIRD ROW -->
+    <div class="row">
+        <h3>Sample Table</h3>
+
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Activity</th>
+            </tr>
+
+            <tr>
+                <td>Monday</td>
+                <td>Lectures</td>
+            </tr>
+
+            <tr>
+                <td>Tuesday</td>
+                <td>Programming Practice</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- FOURTH ROW -->
+    <div class="row contacts">
+        <div>📱 WhatsApp</div>
+        <div>📘 Facebook</div>
+        <div>📸 Instagram</div>
+    </div>
+
+</div>
+
+</body>
+</html>
